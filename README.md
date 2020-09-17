@@ -1,3 +1,5 @@
+### Get-VsoEmail
+
 PowerShell template to use the VSO (Azure DevOps/TFS) REST API for queries and custom formatting to an Outlook message.
 
 Key Benefits:
@@ -14,9 +16,15 @@ Key Benefits:
 
 - PowerShell Credential Manager provides easy processing of PAT for API authentication.
 
-For additional script information:
+Prerequisites:
+    
+- Add Azure DevOps PAT to Windows Credential Manager
 
-Get-Help .\Get-VsoEmail.ps1 -Full
+- Install-Module -Name CredentialManager (http://github.com/davotronic5000/PowerShell_Credential_Manager)
+     
+- Install-Module -Name EnhancedHTML2 (http://github.com/PowerShellOrg/EnhancedHTML2)
+
+For additional script information: Get-Help .\Get-VsoEmail.ps1 -Full
 
 ### Example
 
