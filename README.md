@@ -1,4 +1,4 @@
-Example script for using the VSO (Azure DevOps/TFS) REST API for queries and custom formatting to an Outlook message.
+PowerShell template to use the VSO (Azure DevOps/TFS) REST API for queries and custom formatting to an Outlook message.
 
 Key Benefits:
 
@@ -17,3 +17,7 @@ Key Benefits:
 For additional script information:
 
 Get-Help .\Get-VsoEmail.ps1 -Full
+
+### Example
+
+![alt text](https://github.com/erlaplante/VsoEmail/blob/master/exampleOutput.png?raw=true)
